@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // array static sebagai database sementara
-let products: { id: number; name: string; price: number }[] = [
+const products: { id: number; name: string; price: number }[] = [
   { id: 1, name: 'Produk A', price: 10000 },
   { id: 2, name: 'Produk B', price: 20000 },
 ];
